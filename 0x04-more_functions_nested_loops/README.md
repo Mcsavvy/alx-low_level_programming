@@ -19,3 +19,9 @@ Write a function that checks for if a character is a digit.
 
 [solution](/1-isdigit.c)
 
+#### 2. Collaboration is multiplication
+##### problem
+Write a function that multiplies two integers.
+* Prototype: `int mul(int a, int b)`
+
+[solution](/2-mul.c)
