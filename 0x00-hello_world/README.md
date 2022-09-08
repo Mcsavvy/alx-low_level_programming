@@ -27,3 +27,6 @@ This C program prints out exactly `"Programming is like building a multilingual 
 
 ##### 5-printf.c
 This C program prints out exactly `with proper grammar,but the outcome is a piece of art,` followed by a new line using the `printf` function
+
+##### 6-size.c
+This C program prints out the size of various types on the computer it is compiled and run on.

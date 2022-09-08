@@ -22,5 +22,5 @@ SCRIPT_BODY_PREFIX=""
 
 echo "#!/bin/bash" > $1
 chmod u+x $1
-echo " $SCRIPT_NAME_PREFIX $1
-$SCRIPT_BODY_PREFIX $2" >> README.md
+echo "$SCRIPT_NAME_PREFIX $1
+$2" >> README.md
