@@ -21,3 +21,6 @@ This script generates the assembly code of a C code and saves it to an output fi
 ##### 3-name
 This script compiles a C file and creates an executable named `cisfun`.
 * The C file should be saved in the variable `CFILE`
+
+##### 4-puts.c
+This C program prints out exactly `"Programming is like building a multilingual puzzle` followed by a new line using the `puts`	function
