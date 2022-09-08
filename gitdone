@@ -1,0 +1,23 @@
+#!/bin/bash
+
+: '
+This utility does the following:
+- sets execute permission for every script 
+  (clue: script names start with a digit)
+- does git add .
+- commits to git using the first argument if any is 
+  supplied else you default commit editor is opened
+- does git push
+'
+
+set -eo pipefail
+IFS=$'\n\t'
+
+chmod u+x [0-9]*
+git add . 
+if [[ -n "$1" ]]; then
+    git commit -m "$1"
+else
+    git commit
+fi
+git push
