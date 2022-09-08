@@ -24,3 +24,6 @@ This script compiles a C file and creates an executable named `cisfun`.
 
 ##### 4-puts.c
 This C program prints out exactly `"Programming is like building a multilingual puzzle` followed by a new line using the `puts`	function
+
+##### 5-printf.c
+This C program prints out exactly `with proper grammar,but the outcome is a piece of art,` followed by a new line using the `printf` function
