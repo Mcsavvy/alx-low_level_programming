@@ -30,3 +30,9 @@ This C program prints out exactly `with proper grammar,but the outcome is a piec
 
 ##### 6-size.c
 This C program prints out the size of various types on the computer it is compiled and run on.
+
+##### 100-intel
+This scripts generates assembly code (_intel syntax_) of a C code and save it in an output file.
+* The C file name should be saved in the variable `CFILE`
+* The output file would be named the same as the C file, but with the extension `.s` instead of `.c`
+
