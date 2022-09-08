@@ -13,3 +13,8 @@ This script compiles a C file but does not link.
 * The C file name should be saved in the variable `CFILE`
 * The output file would be named the same as the C file, but with the extension `.o` instead of `.c`
 
+##### 2-assembler
+ This script generates the assembly code of a C code and saves it to an output file.
+* The C file name should be saved in the variable `CFILE`
+* The output file would be named the same as the C file, but with the extension `.s` instead of `.c`
+
