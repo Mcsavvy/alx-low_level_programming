@@ -9,3 +9,5 @@ This program generates a random number and gets the last digit of the generated 
 #### 2-print_alphabet.c 
 This program prints the alphabet in lowercase followed by a newline.
 
+#### 3-print_alphabets.c 
+This program prints the alphabet in lowercase, and then in uppercase, followed by a newline.
