@@ -1,4 +1,3 @@
-gitdone
-gitedit
-profile.sh
-new-script
+*.sh
+env
+utils

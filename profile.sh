@@ -1,9 +1,0 @@
-alias gitdone="$(pwd)/gitdone"
-alias gitedit="$(pwd)/gitedit"
-alias touchS='echo "#!/bin/bash" >'
-alias touch-script='touchS'
-alias addx='chmod u+x'
-alias describeS="$(pwd)/describe-script"
-alias describe-script='describeS'
-alias newS="$(pwd)/new-script"
-alias new-script='newS'
