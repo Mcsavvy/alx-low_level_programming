@@ -27,5 +27,7 @@ This program prints the lowercase alphabets in reverse followed by a newline.
 This program prints all the numbers of base16 in lowercase, followed by a new line.
 
 #### 9-print_comb.c
-This program prints all the possible combinations of single-digit numbers.
+This program prints all digits separated by commas and spaces
 
+#### 100-print_comb3.c
+This program prints all the possible combinations of single-digit numbers.
