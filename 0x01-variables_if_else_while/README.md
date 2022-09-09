@@ -17,3 +17,6 @@ This program prints the alphabet except `q` and `e` in lowercase followed by a n
 
 #### 5-print_numbers.c 
 This program prints digits from `0` to `9`.
+#### 6-print_numberz.c 
+This program prints digits from `0` to `9`.
+
