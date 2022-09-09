@@ -14,3 +14,6 @@ This program prints the alphabet in lowercase, and then in uppercase, followed b
 
 #### 4-print_alphabt.c 
 This program prints the alphabet except `q` and `e` in lowercase followed by a newline.
+
+#### 5-print_numbers.c 
+This program prints digits from `0` to `9`.
