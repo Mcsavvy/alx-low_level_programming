@@ -20,3 +20,6 @@ This program prints digits from `0` to `9`.
 #### 6-print_numberz.c 
 This program prints digits from `0` to `9`.
 
+#### 7-print_tebahpla.c 
+This program prints the lowercase alphabets in reverse followed by a newline.
+
