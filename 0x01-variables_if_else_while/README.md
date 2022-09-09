@@ -11,3 +11,6 @@ This program prints the alphabet in lowercase followed by a newline.
 
 #### 3-print_alphabets.c 
 This program prints the alphabet in lowercase, and then in uppercase, followed by a newline.
+
+#### 4-print_alphabt.c 
+This program prints the alphabet except `q` and `e` in lowercase followed by a newline.
