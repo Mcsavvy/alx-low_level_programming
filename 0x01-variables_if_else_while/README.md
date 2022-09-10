@@ -30,4 +30,7 @@ This program prints all the numbers of base16 in lowercase, followed by a new li
 This program prints all digits separated by commas and spaces
 
 #### 100-print_comb3.c
-This program prints all the possible combinations of single-digit numbers.
+This program prints all the possible combinations of two different digits.
+
+#### 101-print_comb3.c
+This program prints all the possible combinations of three different digits.
