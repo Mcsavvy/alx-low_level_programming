@@ -18,3 +18,6 @@ This function prints the alphabet in lowercase 10x, followed by a new line.
 #### 3-islower.c
 This function checks if a character is lowercase
 
+#### 4-isalpha.c
+This function checks if a character is an alphabet
+

@@ -6,3 +6,5 @@ _putchar.c
 2-print_alphabet_x10
 3-main.c
 3-islower
+4-main.c
+4-isalpha
