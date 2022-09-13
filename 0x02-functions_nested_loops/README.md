@@ -12,3 +12,6 @@ This program prints `_putchar` followed by a new line
 #### 1-alphabet.c
 print the alphabet in lowercase followed by a new line.
 
+#### 2-print_alphabet_x10
+This function prints the alphabet in lowercase 10x, followed by a new line.
+
