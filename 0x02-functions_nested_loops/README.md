@@ -8,3 +8,7 @@ We'll be learning
 
 #### 0-putchar.c
 This program prints `_putchar` followed by a new line
+
+#### 1-alphabet.c
+print the alphabet in lowercase followed by a new line.
+
