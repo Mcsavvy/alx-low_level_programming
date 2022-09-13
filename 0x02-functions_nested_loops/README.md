@@ -30,3 +30,6 @@ This function prints out the sign of a number
 #### 6-abs.c
 This function computes the absolute value of an integer
 
+#### 7-print_last_digit.c
+This function prints & returns the last digit of a number
+
