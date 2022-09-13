@@ -42,3 +42,5 @@ This function prints the 9 times table
 #### 10-add.c
 This function add two numbers and returns the result
 
+#### 11-print_to_98.cThis function prints all natural numbers from `n` to 98, followed by a new line
+
