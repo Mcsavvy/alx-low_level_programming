@@ -27,3 +27,6 @@ This function prints out the sign of a number
 * `0` if the number is zero
 * `-` if the number is less than 0
 
+#### 6-abs.c
+This function computes the absolute value of an integer
+
