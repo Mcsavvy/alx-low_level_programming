@@ -24,7 +24,7 @@ void times_table(void)
 				/* print the first digit */
 				_putchar(48 + (m / 10));
 			else if (c != 0) /* if only a single digit exists */
-				/* print a space if this */
+				/* print a space */
 				_putchar(' ');
 
 			_putchar(48 + (m % 10));
