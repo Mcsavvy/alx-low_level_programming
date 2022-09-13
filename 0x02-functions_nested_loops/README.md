@@ -21,3 +21,9 @@ This function checks if a character is lowercase
 #### 4-isalpha.c
 This function checks if a character is an alphabet
 
+#### 5-sign.c
+This function prints out the sign of a number
+* `+` if the number is greater than 0
+* `0` if the number is zero
+* `-` if the number is less than 0
+
