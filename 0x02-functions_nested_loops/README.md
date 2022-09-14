@@ -52,3 +52,7 @@ This function prints the `n` times table starting with 0
 #### 101-natural.c
 This program computes and prints the sum of all the multiples of `3` or `5` below `1024`(_excluded_), followed by a new line
 
+#### 102-fibonaccii.c
+This program prints out the first 50 Fibonacci numbers, starting with `1` and `2`, then followed by a new line
+* The numbers are seperated by comma, followed by a space
+
