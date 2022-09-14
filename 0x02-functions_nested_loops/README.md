@@ -61,3 +61,7 @@ This program goes through all numbers in a fibonacci sequence that do not exceed
 * find an prints out the sum of the even-valued terms
 * prints a new line
 
+#### 104-fibonaccii.c
+This program prints out the first 98 Fibonacci numbers, starting with `1` and `2`, then followed by a new line
+* The numbers are seperated by comma, followed by a space
+
