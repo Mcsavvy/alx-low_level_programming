@@ -2,7 +2,8 @@
 
 /**
  * main - entry point
- * prints out the first 50 fibonacci numbers starting with 1 and 2
+ * Print the sum of all even numbers in  a fibonacci sequence that do not
+ * exceed 4,000,000
  *
  * Return: Always 0
  */
