@@ -56,3 +56,8 @@ This program computes and prints the sum of all the multiples of `3` or `5` belo
 This program prints out the first 50 Fibonacci numbers, starting with `1` and `2`, then followed by a new line
 * The numbers are seperated by comma, followed by a space
 
+#### 103-fibonacci.c
+This program goes through all numbers in a fibonacci sequence that do not exceed 4,000,000, then:
+* find an prints out the sum of the even-valued terms
+* prints a new line
+
