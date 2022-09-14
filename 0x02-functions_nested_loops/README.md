@@ -49,3 +49,6 @@ This function prints all natural numbers from `n` to 98, followed by a new line
 This function prints the `n` times table starting with 0
 > if `n` is greater than 15, or less than 0, the function does not print anything
 
+#### 101-natural.c
+This program computes and prints the sum of all the multiples of `3` or `5` below `1024`(_excluded_), followed by a new line
+
