@@ -37,3 +37,10 @@ Write a function that prints the numbers, from 0 to 9, followed by a new line.
 * You cn only use `_putchar` twice in your code
 
 [solution](/4-print_most_numbers.c)
+
+#### 5. Numbers constitute the only universal language
+Write a function that prints 10 times the numbers, from 0 to 14, followed by a new line.
+* Prototype: `void more_numbers(void);`
+* You can only use `_putchar` three times in your code.
+
+[solution](/5-more_numbers.c)
