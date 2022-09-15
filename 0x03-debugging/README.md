@@ -9,3 +9,6 @@ This program tests a function that prints if integer is positive or negative
 #### 1-main.c
 This program stops an incoming Infinite loop \o/
 
+#### 2-largest_number
+Fixed a program that returns the largest of three integers
+
