@@ -2,7 +2,6 @@
 Solution to complex problems using functions and nested loops.
 
 #### 0. isupper
-##### problem
 Write a function that checks for if a character is uppercase.
 * Prototype: `int _isupper(int c);`
 * Returns `1` if `c` is uppercase
@@ -11,7 +10,6 @@ Write a function that checks for if a character is uppercase.
 [solution](/0-isupper.c)
 
 #### 1. isdigit
-##### problem
 Write a function that checks for if a character is a digit.
 * Prototype: `int _isdigit(int c);`
 * Returns `1` if `c` is a digit
@@ -20,7 +18,6 @@ Write a function that checks for if a character is a digit.
 [solution](/1-isdigit.c)
 
 #### 2. Collaboration is multiplication
-##### problem
 Write a function that multiplies two integers.
 * Prototype: `int mul(int a, int b)`
 
@@ -32,3 +29,11 @@ Write a function that prints the numbers, from 0 to 9, followed by a new line.
 * You can only use `_putchar` twice in your code
 
 [solution](/3-print_numbers.c)
+
+#### 4. I believe in numbers and signs
+Write a function that prints the numbers, from 0 to 9, followed by a new line.
+* Prototype: `void print_most_numbers(void);`
+* Do not print 2 and 4
+* You cn only use `_putchar` twice in your code
+
+[solution](/4-print_most_numbers.c)
