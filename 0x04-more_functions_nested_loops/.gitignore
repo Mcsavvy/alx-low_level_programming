@@ -1,3 +1,4 @@
 0-isupper
 [0-9]*-main.c
 1-isdigit
+3-print_numbers
