@@ -9,3 +9,13 @@ Write a function that checks for if a character is uppercase.
 * Returns `0` otherwise
 
 [solution](/0-isupper.c)
+
+#### 1. isdigit
+##### problem
+Write a function that checks for if a character is a digit.
+* Prototype: `int _isdigit(int c);`
+* Returns `1` if `c` is a digit
+* Returns `0` otherwise
+
+[solution](/1-isdigit.c)
+
