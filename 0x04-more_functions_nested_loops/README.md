@@ -54,3 +54,13 @@ Write a function that draws a straight line in the terminal.
 * if `n` is 0 or less, the function should only print `\n`
 
 [solution](/6-print_line.c)
+
+#### 7. I feel like I am diagonally parked in a parallel universe
+Write a function that draws a diagonal line in the terminal.
+* Prototype: `void print_diagonal(int n);`
+* You can only use the `_putchar` function to print
+* Where `n` is the number of times the character `\` should be printed
+* The line shold end with a `\n`
+* if `n` is 0 or less, the function should only print `\n`
+
+[solution](/7-print_diagonal.c)
