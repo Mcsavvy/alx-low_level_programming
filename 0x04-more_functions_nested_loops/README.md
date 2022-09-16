@@ -81,3 +81,13 @@ Write a program that prints out the numbers from 1 to 100, followed by a new lin
 * You are allowed to use the standard library
 
 [solution](/9-fizz_buzz.c)
+
+#### 10. Triangles
+Write a function that prints a triangle, followed by a new line
+* Prototype: `void print_triangle(int size);`
+* You can only use `_putchar` function to print
+* Where `size` is the size of the triangle
+* if size is 0 or less, the function should print only a new line
+* Use the character `#` to print the triangle
+
+[solution](/10-print_triangle.c)
