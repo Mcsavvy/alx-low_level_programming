@@ -74,3 +74,10 @@ Write a function that prints a square followed by a new line.
 * Use the character `#` to print the square
 
 [solution](/8-print_square.c)
+
+#### 9. Fizz-Buzz
+Write a program that prints out the numbers from 1 to 100, followed by a new line. But for multiples of 3 print `Fizz` instead of the number and for multiples of 5 print `Buzz`. For numbers which are multiples of both, print `FizzBuzz`.
+* Each number or word should be separated by a space
+* You are allowed to use the standard library
+
+[solution](/9-fizz_buzz.c)
