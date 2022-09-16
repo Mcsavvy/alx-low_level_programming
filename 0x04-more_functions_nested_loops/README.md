@@ -91,3 +91,22 @@ Write a function that prints a triangle, followed by a new line
 * Use the character `#` to print the triangle
 
 [solution](/0x04-more_functions_nested_loops/10-print_triangle.c)
+
+#### 11. The problem of distinguishing prime numbers from composite numbers and of resolving the latter into their prime factors is known to be one of the most important and useful arithmetic
+Write a program that finds and prints the largest prime factor of the number `612852475143`, followed by a new line.
+* You are allowed to use the standard library
+* Your program would be compiled with this command `gcc -Wall -Werror -Wextra -pedantic -std=gnu89 100-prime_factor.c -o 100-prime_factor -lm
+
+[solution](/0x04-more_functions_nested_loops/100-prime_factor.c)
+
+#### 12. Numbers have life; they're not just symbols on paper
+Write a function that prints an integer
+* Prototype: `void print_number(int n);`
+* You can only use `_putchar` function to print
+* You're not allowed to use long
+* You're not allowed to use arrays or pointers
+* You're not allowed to hard code special values
+
+[solution](/0x04-more_functions_nested_loops/101-print_number.c)
+
+
