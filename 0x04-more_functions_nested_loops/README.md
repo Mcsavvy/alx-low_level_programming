@@ -44,3 +44,13 @@ Write a function that prints 10 times the numbers, from 0 to 14, followed by a n
 * You can only use `_putchar` three times in your code.
 
 [solution](/5-more_numbers.c)
+
+#### 6. The shortest distance between two points is a straight line
+Write a function that draws a straight line in the terminal.
+* Prototype: `void print_line(int n);`
+* You can only use the `_putchar` function to print
+* Where `n` is the number of times the character `_` should be printed
+* The line shold end with a `\n`
+* if `n` is 0 or less, the function should only print `\n`
+
+[solution](/6-print_line.c)
