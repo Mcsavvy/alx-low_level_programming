@@ -64,3 +64,13 @@ Write a function that draws a diagonal line in the terminal.
 * if `n` is 0 or less, the function should only print `\n`
 
 [solution](/7-print_diagonal.c)
+
+#### 8. You are so much sunshine in every square inch
+Write a function that prints a square followed by a new line.
+* Prototype: `void print_square(int size);`
+* You can only use `_putchar` function to print.
+* Where `size` is the size of the square
+* If `size` is 0 or less, the function should print only a newline
+* Use the character `#` to print the square
+
+[solution](/8-print_square.c)
