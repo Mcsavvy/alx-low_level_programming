@@ -37,3 +37,9 @@ Write a function that prints a string, in reverse, followed by a new line.
 + Prototype: `void print_rev(char *s);`
 
 [solution](/0x05-pointers_arrays_strings/4-print_rev.c)
+
+#### 5. A good engineer thinks in reverse and asks himself about the stylistic consequences of the components and systems he proposes
+Write a function that reverse a string.
++ Prototype: `void rev_string(char *s);`
+
+[solution](/0x05-pointers_arrays_strings/5-rev_string.c)
