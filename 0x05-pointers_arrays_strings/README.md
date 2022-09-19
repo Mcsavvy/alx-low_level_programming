@@ -43,3 +43,9 @@ Write a function that reverse a string.
 + Prototype: `void rev_string(char *s);`
 
 [solution](/0x05-pointers_arrays_strings/5-rev_string.c)
+
+#### 6. Half the lies they tell about me aren't true
+Write a function that prints every other character of a string, starting with the first character, followed by a new line.
++ Prototype: `void puts2(char *str);`
+
+[solution](/0x05-pointers_arrays_strings/6-puts2.c)
