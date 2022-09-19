@@ -67,3 +67,10 @@ Write a function that prints `n` elements of an array of integers, followed by a
 + You are allowed to use `printf`
 
 [solution](/0x05-pointers_arrays_strings/8-print_array.c)
+
+#### 9. strcpy
+Write a function that copies the string pointed to by `src`, including the terminating null byte (`\0`), to the buffer pointed to by `dest`.
++ Prototype: `char *_strcpy(char *dest, char *src)`
++ Return value: the pointer to `dest`
+
+[solution](/0x05-pointers_arrays_strings/9-strcpy.c)
