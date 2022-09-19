@@ -57,3 +57,13 @@ Write a function that prints half of a string, followed by a new line.
 + If the number of characters is odd, the function should print the last `n` characters of the string, where `n = (length_of_the_string - 1) / 2`
 
 [solution](/0x05-pointers_arrays_strings/7-puts_half.c)
+
+#### 8. Arrays are not pointers
+Write a function that prints `n` elements of an array of integers, followed by a new line.
++ Prototype: `void print_array(int *a, int n);`
++ where `n` is the number of elements of the array to be printed
++ Numbers must be separated by comma, followed by a space
++ The numbers should be displayed in the same order as they are stored in the array
++ You are allowed to use `printf`
+
+[solution](/0x05-pointers_arrays_strings/8-print_array.c)
