@@ -1,4 +1,5 @@
-0-main.c
+[0-9]-main.c
 main.h
 1-swap
 2-strlen
+3-puts
