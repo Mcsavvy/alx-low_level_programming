@@ -6,3 +6,8 @@
 6-cap_string
 7-leet
 [0-9]*-main.c
+101-print_number
+103-infinite_add
+100-rot13
+102-magic
+104-print_buffer
