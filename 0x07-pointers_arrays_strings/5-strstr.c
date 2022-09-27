@@ -10,14 +10,14 @@
  */
 char *_strstr(char *haystack, char *needle)
 {
-	unsigned int i, c;
-	unsigned int found;
+	unsigned long i, c;
+	short int found;
 
 	for (i = 0; haystack[i]; i++)
 	{
 		found = 0;
 
-		while (for c = 0; needle[c]; i++)
+		for (for c = 0; needle[c]; c++)
 		{
 			if (haystack[i + c] == needle[c])
 				found = 1;
