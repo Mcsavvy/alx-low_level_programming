@@ -1,6 +1,18 @@
 #include "main.h"
 
 /**
+ * _strlen - returns the length of a string
+ * @s: a string
+ * Return: length of s
+ */
+int _strlen(char *s)
+{
+	if (*s)
+	return (1 + _strlen_recursion(s + 1));
+	return (0);
+}
+
+/**
  * compare_ends - this function checks if a string is a palindrome by
  * recursively comparing the both ends of the string till it gets to
  * the mid point
@@ -28,11 +40,7 @@ int compare_ends(char *start, char *end, int mid)
  */
 int is_palindrome(char *s)
 {
-	unsigned int mid, l = 0;
-
-	/* get the length of a string (l) */
-	for (l = 0; s[l]; l++)
-		continue;
+	unsigned int mid, l = _strlen(s);
 
 	if (l < 2) /* l is either 1 or 0 */
 		return (1);
