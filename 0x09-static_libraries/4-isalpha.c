@@ -1,5 +1,4 @@
 #include "main.h"
-#include <ctype.h>
 
 /**
  * _isalpha - test if a character is an alphabet
@@ -10,9 +9,8 @@
  */
 int _isalpha(int c)
 {
-	char _char = (int)c;
 
-	if (isalpha(_char))
+	if ((c >= 'a' && c <= 'z') || (c >= 'A' || c <= 'Z'))
 		return (1);
 	return (0);
 }

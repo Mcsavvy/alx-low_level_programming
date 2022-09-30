@@ -1,6 +1,4 @@
 #include "main.h"
-#include <stdlib.h>
-#include <ctype.h>
 
 /**
  * _atoi - convert a string to integer
@@ -10,8 +8,8 @@
 int _atoi(char *s)
 {
 	short int m = 1; /* negative or positive multiplier */
-	char *str = "";
-	unsigned int i;
+	unsigned short int i;
+	unsigned int num;
 
 	while (*s != '\0')
 	{
@@ -19,16 +17,14 @@ int _atoi(char *s)
 			m *= -1;
 		else if (*s == '+')
 			m *= +1;
-		else if (isdigit(*s))
-		{
-			str = s;
+		else if (*s >= '0' && *s <= '9')
 			break;
-		}
 		s += 1;
 	}
-	i = atoi(str);
-	if (i == 0)
-		return (0);
-	return (i * m);
+	
+	for (i = 0; s[i] <= '9' || s[i] >= '0'; i++)
+		num += (10 * i) + ((int)(s[i]) - 48);
+
+	return (num * m);
 }
 

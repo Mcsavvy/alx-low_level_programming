@@ -1,4 +1,3 @@
-#include <string.h>
 #include "main.h"
 
 /**
@@ -9,6 +8,13 @@
  */
 char *_strcat(char *dest, char *src)
 {
-	return (strcat(dest, src));
+	int l, i;
+
+	for (l = 0; dest[l]; l++)
+		continue;
+
+	for (i = 0; src[i]; i++)
+		dest[l + i] = src[i];
+	return (dest);
 }
 
