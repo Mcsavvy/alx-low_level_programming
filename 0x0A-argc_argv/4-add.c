@@ -4,8 +4,10 @@
 
 /**
  * main - entry point
- * 	  adds positive numbers passed in
- * 	  from the command line.
+ *	adds positive numbers passed in
+ *	from the command line.
+ * @argc: number of cli args
+ * @argv: list of cli args
  * Return: 1 if any numbers contains a non-digit symbol, else 0
  */
 int main(int argc, char *argv[])

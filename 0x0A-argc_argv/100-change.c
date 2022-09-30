@@ -3,9 +3,12 @@
 
 /**
  * main - entry point
- * 
+ *
  * this program prints the minimun numbers
- * of coins to make change for an amount of money
+ * of coins to make change for an amount of money *
+ *
+ * @argc: number of cli arguments
+ * @argv: list of cli arguments
  *
  * Return: 1 if number of arguments passed is not 1, else 0
  */
@@ -23,8 +26,8 @@ int main(int argc, char *argv[])
 	}
 
 	cents = atoi(argv[1]);
-	
-	for(i = 0; cents && i < 5; i++)
+
+	for (i = 0; cents && i < 5; i++)
 		while (cents && !(cents - coins[i] < 0))
 		{
 			cents -= coins[i];

@@ -2,8 +2,10 @@
 
 /**
  * main - entry point
- * 	  prints number of arguments passed in
- * 	  and exits
+ *	prints number of arguments passed in
+ *	and exits
+ * @argc: number of cli args passed
+ * @argv: list of cli args passed
  * Return: Always(0);
  */
 int main(int argc, char __attribute__((unused)) *argv[])

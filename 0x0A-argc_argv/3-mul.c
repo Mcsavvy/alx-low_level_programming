@@ -3,8 +3,10 @@
 
 /**
  * main - entry point
- * 	  print the result of multiplying two
- * 	  integers supplied as cli arguments.
+ *	print the result of multiplying two
+ *	integers supplied as cli arguments.
+ * @argc: number of cli args
+ * @argv: list of cli args
  * Return: 0 is two arguments were supplied else 1
  */
 int main(int argc, char *argv[])
