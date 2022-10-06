@@ -35,11 +35,9 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 		n = l2;
 	/* allocate space for s1, n bytes of s2 and the nullbyte */
 	str = (char *)malloc(l1 + n + 1);
-	/* was the space allocated? */
-	if (str == NULL)
+	if (str == NULL) /* was the space allocated */
 		return (NULL);
-	/* add s1 to str */
-	for (i = 0; i < l1; i++)
+	for (i = 0; i < l1; i++) /* add s1 to str */
 		str[i] = s1[i];
 	/**
 	 * add n bytes of s2 to str,
@@ -47,6 +45,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	 */
 	for (i = 0; i < n; i++)
 		str[l1 + i] = s2[i];
+	str[l1 + i] = '\0';
 	/* return str */
 	return (str);
 }
