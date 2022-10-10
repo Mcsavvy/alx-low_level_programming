@@ -1,7 +1,6 @@
 #include "dog.h"
 #include <stdio.h>
-#define _NULL (void *)0
-#define ISNULL(x) ((x) == _NULL ? 1 : 0)
+#define ISNULL(x) ((x) == N ? 1 : 0)
 
 /**
  * print_dog - prints a dog struct
@@ -11,7 +10,7 @@
  */
 void print_dog(struct dog *d)
 {
-	if (d != _NULL)
+	if (d != N)
 	{
 		if (ISNULL(d->name))
 			puts("Name: (nil)");

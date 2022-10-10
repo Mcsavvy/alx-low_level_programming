@@ -1,5 +1,6 @@
 #ifndef MAIN_H
 #define MAIN_H
+#define N (void *)0
 
 /**
  * dog_t - Typedef for dog struct

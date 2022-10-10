@@ -1,6 +1,5 @@
 #include "dog.h"
 #include <stdlib.h>
-#define N (void *)0
 
 /**
  * _strlen - get the length of a string
@@ -29,6 +28,7 @@ void _strcpy(char *dest, char *src)
 
 	for (i = 0; src[i]; i++)
 		dest[i] = src[i];
+	dest[i] = src[i];
 }
 
 /**
@@ -44,6 +44,9 @@ dog_t *new_dog(char *name, float age, char *owner)
 	char *n, *o;
 	size_t nl, ol;
 	dog_t *d;
+
+	if (name == N || owner == N)
+		return (N);
 
 	nl = _strlen(name);
 	ol = _strlen(owner);
