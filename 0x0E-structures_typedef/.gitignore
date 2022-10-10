@@ -1,0 +1,7 @@
+0-main
+[0-9]*-main.c
+1-init_dog
+2-print_dog
+3-main
+4-new_dog
+f
