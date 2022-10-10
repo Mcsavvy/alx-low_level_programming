@@ -50,7 +50,7 @@ dog_t *new_dog(char *name, float age, char *owner)
 
 	nl = _strlen(name);
 	ol = _strlen(owner);
-	n = malloc(nl * 1);
+	n = malloc(nl + 1);
 	if (n == N)
 		return (N);
 	o = malloc(ol + 1);
