@@ -35,8 +35,6 @@ Now, inside the `main()` function of the program...
 
 - `argv` = {"./listfiles", "file1", "file2", "file3"}
 
-
-
 **Look at the tasks below to gain more insight into how you can use these**
 
 ---
@@ -98,5 +96,3 @@ Write a program that prints the minimum number of coins to make change for an am
 - You can use an unlimited number of coins of values 25, 10, 5, 2, and 1 cent
 
 [solution](100-change.c)
-
-

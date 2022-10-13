@@ -23,10 +23,7 @@ void cisfun(unsigned int n1, unsigned int n2)
     int *ptr;
     char array[3];
 }
-
 ```
-
-
 
 ### Dynamic allocation
 
@@ -62,8 +59,6 @@ int main(void)
 // OUTPUT
 OK
 ```
-
-
 
 ## Tasks
 
