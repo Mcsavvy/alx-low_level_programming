@@ -1,2 +1,5 @@
 [0-9]*-main.c
 0-sum_them_all
+1-print_numbers
+2-print_strings
+3-print_all
