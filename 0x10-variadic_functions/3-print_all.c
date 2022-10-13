@@ -13,16 +13,10 @@ void print_all(const char * const format, ...)
 	va_list args;
 	char print_sep = TRUE, *s;
 
-	if (format is null)
-	{
-		printf("\n");
-		return;
-	}
-
 	va_start(args, format);
 	i = 0;
 
-	while (format[i] != '\0')
+	while (format != null && format[i] != '\0')
 	{
 		print_sep = TRUE;
 		switch (format[i])
@@ -52,4 +46,5 @@ void print_all(const char * const format, ...)
 		i++;
 	}
 	printf("\n");
+	va_end(args);
 }
