@@ -5,3 +5,4 @@ _putchar.c
 2-add_node
 3-add_node_end
 core
+4-free_list
