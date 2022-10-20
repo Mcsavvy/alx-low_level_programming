@@ -8,12 +8,14 @@
  * @head: a pointer to a pointer to the head of the list 🙃
  *
  * @str: a string
+ *
+ * Return: new node
  */
 list_t *add_node(list_t **head, const char *str)
 {
 	unsigned int i;
 	list_t *node;
-	
+
 	if (str == NULL)
 		i = 0;
 	else
