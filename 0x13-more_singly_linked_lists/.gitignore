@@ -5,3 +5,4 @@ a
 3-add_nodeint_end
 4-free_listint
 5-free_listint2
+6-pop_listint
