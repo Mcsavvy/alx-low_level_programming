@@ -13,7 +13,6 @@
  */
 node *add_nodeint(node **head, const int n)
 {
-	node *temp = *head;
 	node *new;
 
 	new = malloc(sizeof(node));
