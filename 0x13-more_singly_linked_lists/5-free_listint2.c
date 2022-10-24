@@ -9,14 +9,9 @@
  */
 void free_listint2(node **head)
 {
-	node *temp;
-
-	while (*head)
-	{
-		temp = (*head)->next;
-		free(*head);
-		*head = temp;
-	}
+	if (*head == NULL)
+		return;
+	free_listint2(&((*head)->next));
+	free(*head);
 	*head = NULL;
-	head = NULL;
 }
