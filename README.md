@@ -45,6 +45,8 @@ This repository contains all my **alx low level programming projects**. Every pr
 
 - **0x11**. printf [**↗**](https://github.com/mcsavvy/printf)
 
+- **0x14**. Bit manipulation [**↗**](0x14-bit_manipulation)
+
 ### Data structures and Algorithms
 
 - **0x12**. Singly linked lists [**↗**](0x12-singly_linked_lists)
