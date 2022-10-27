@@ -18,6 +18,9 @@ node *find_loop(const node *head)
 	slow = head->next;
 	fast = slow->next;
 
+	if (fast == head)
+		return (fast);
+
 	while (fast && fast->next)
 	{
 		slow = slow->next;
@@ -55,15 +58,15 @@ size_t print_listint_safe(const node *head)
 
 	while (head != NULL)
 	{
-		printf("[%p] %d\n", (void *)head, head->n);
-		size++;
-		head = head->next;
 		if (head == mark)
 		{
 			if (seen)
 				break;
 			seen = 1;
 		}
+		printf("[%p] %d\n", (void *)head, head->n);
+		head = head->next;
+		size++;
 	}
 	if (mark != NULL)
 		printf("-> [%p] %d\n", (void *)mark, mark->n);

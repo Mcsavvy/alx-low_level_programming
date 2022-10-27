@@ -9,14 +9,14 @@
  * Return: the node where the loop begins, or NULL
  *		if there is no loop
  */
-node *find_loop2(const node *head)
+node *find_loop2(node *head)
 {
 	node *slow, *fast;
 
 	if (!(head) || !(head->next))
 		return (NULL);
-	slow = head->next;
-	fast = slow->next;
+	slow = head;
+	fast = head;
 
 	while (fast && fast->next)
 	{
@@ -25,8 +25,7 @@ node *find_loop2(const node *head)
 
 		if (slow == fast)
 		{
-			fast = head->next;
-			slow = slow->next;
+			fast = head;
 			while (slow != fast)
 			{
 				slow = slow->next;
@@ -46,24 +45,30 @@ node *find_loop2(const node *head)
 size_t free_listint_safe(node **h)
 {
 	node *mark, *temp, *head;
-	size_t size = 0;
+	size_t size, i;
 	char seen = 0;
 
+	if (h == NULL || *h == NULL)
+		return (0);
 	head = *h;
 	mark = find_loop2(head);
+	temp = head;
 
-	while (head != NULL)
+	for (size = 0; temp != NULL; size++)
 	{
-		temp = head->next;
-		free(head);
-		head = temp;
-		size += sizeof(node);
-		if (head == mark)
+		if (temp == mark)
 		{
 			if (seen)
 				break;
 			seen = 1;
 		}
+		temp = temp->next;
+	}
+	for (i = 0; i < size; i++)
+	{
+		temp = head->next;
+		free(head);
+		head = temp;
 	}
 	*h = NULL;
 	h = NULL;
