@@ -1,8 +1,6 @@
 #include "main.h"
 #include <stdio.h>
-#define bool char
-#define true 1
-#define false 0
+
 
 /**
  * cpy - a helper function that copies content from one file
