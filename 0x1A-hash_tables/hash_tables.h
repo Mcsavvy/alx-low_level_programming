@@ -33,6 +33,8 @@ typedef struct hash_table_s
 } hash_table_t;
 
 /* prototypes */
-hash_table_t *hash_table_create(unsigned long int size);
+hash_table_t *hash_table_create(ulong size);
+ulong hash_djb2(const unsigned char *str);
+ulong key_index(const unsigned char *key, ulong size);
 
 #endif /* HASH_TABLES_H */
