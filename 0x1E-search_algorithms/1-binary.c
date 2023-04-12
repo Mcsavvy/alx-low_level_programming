@@ -13,7 +13,7 @@ void print_array(int *array, size_t size)
 {
 	size_t i;
 
-	if (! (array && size))
+	if (!(array && size))
 		return;
 
 	for (i = 0; i < size - 1; i++)
@@ -42,18 +42,14 @@ int binary_search(int *array, size_t size, int value)
 	print_array(array, size);
 	mid = (size - 1) / 2;
 	mid_val = array[mid];
-	
+
 	if (value == mid_val)
 		return (mid);
 	else if (value < mid_val)
 		return (binary_search(array, size - (mid + 2), value));
-	else
-	{
-		index = binary_search(
-			array + mid + 1, size - (mid + 1), value);
-		if (index > -1)
-			return ((mid + 1) + index);
-		return (index);
-	}
+	index = binary_search(
+		array + mid + 1, size - (mid + 1), value);
+	if (index > -1)
+		return ((mid + 1) + index);
 	return (-1);
 }
