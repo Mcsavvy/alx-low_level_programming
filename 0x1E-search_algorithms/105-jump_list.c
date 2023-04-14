@@ -24,7 +24,7 @@ listint_t *node_at_index(listint_t *list, size_t index)
 }
 
 /**
- * jump_search - searches for a node in a sorted list of integers using
+ * jump_list - searches for a node in a sorted list of integers using
  * the jump search algorithm.
  *
  * @list: a linked list of integers

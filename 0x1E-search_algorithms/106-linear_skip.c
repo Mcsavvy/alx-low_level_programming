@@ -43,7 +43,6 @@ skiplist_t *node_at_index(skiplist_t *list, size_t index)
  * the jump search algorithm.
  *
  * @list: a linked list of integers
- * @size: the size of the list
  * @value: the value to search for
  *
  * Return: a pointer to the node where @value is located or NULL if not found

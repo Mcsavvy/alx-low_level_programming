@@ -58,5 +58,5 @@ int _interpolation_search(int *array, int hi, int lo, int value)
  */
 int interpolation_search(int *array, size_t size, int value)
 {
-	return _interpolation_search(array, size - 1, 0, value);
+	return (_interpolation_search(array, size - 1, 0, value));
 }

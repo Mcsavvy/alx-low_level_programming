@@ -33,7 +33,8 @@ void print_array(int *array, size_t size)
 int exponential_search(int *array, size_t size, int value)
 {
 	size_t hi, lo = 0, mid;
-	if (! (array && size))
+
+	if (!(array && size))
 		return (-1);
 
 	for (hi = 1; hi < size && array[hi] < value; hi *= 2)
