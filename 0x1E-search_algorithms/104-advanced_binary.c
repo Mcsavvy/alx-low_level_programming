@@ -22,33 +22,36 @@ void print_array(int *array, size_t size)
 }
 
 /**
- * binary_search - searches a value in an array using the binary search
- * algorithm
+ * advanced_binary - searches for a value in a list using the binary search
+ * algorithm.
  *
  * @array: array of integers
  * @size: size of array
  * @value: value to search for
  *
- * Return: the index at which @vaoue was found or -1 if it wasn't found.
+ * Return: the index of the first @value was found or -1 if it wasn't found.
  */
-int binary_search(int *array, size_t size, int value)
+int advanced_binary(int *array, size_t size, int value)
 {
-	size_t mid;
-	int mid_val, index;
+	int mid, index;
 
-	if (size == 0)
+	if (!(array && size))
 		return (-1);
 
 	printf("Searching in array: ");
 	print_array(array, size);
 	mid = (size - 1) / 2;
-	mid_val = array[mid];
 
-	if (value == mid_val)
-		return (mid);
-	else if (value < mid_val)
-		return (binary_search(array, size - (mid + 2), value));
-	index = binary_search(
+	if (value == array[mid])
+	{
+		if ((mid > 0 && array[mid - 1] != value) || (mid == 0))
+			return (mid);
+		return (advanced_binary(array, size - (mid + 1), value));
+	}
+	else if (value < array[mid])
+		return (advanced_binary(array, size - (mid + 2), value));
+
+	index = advanced_binary(
 		array + mid + 1, size - (mid + 1), value);
 	if (index > -1)
 		return ((mid + 1) + index);
